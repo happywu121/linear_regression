@@ -1,5 +1,7 @@
 # -*- coding:utf-8 -*-
 
+#最小二乘法进行线性函数拟合，使用W=（X.T*X）的逆*（X.T*Y）
+
 import numpy as np
 import matplotlib.pyplot as plt
 
