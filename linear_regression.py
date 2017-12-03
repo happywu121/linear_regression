@@ -15,7 +15,7 @@ A = np.hstack((x2,one))
 C = y1.reshape((y1.shape[0],1))
 
 m=[]
-for i in range(10):
+for i in range(7):
     a = x**i
     m.append(a)
 A7 = np.array(m).T
